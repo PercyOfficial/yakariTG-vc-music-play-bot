@@ -55,13 +55,13 @@ def song(client, message):
         )
         print(str(e))
         return
-    m.edit("Downloading the song ")
+    m.edit("Downloading the song 📥")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**🎵 Uploaded by @GroupMusicPlayBot **'
+        rep = '**📤 Uploaded by @yakarimusicplaybot **'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -258,9 +258,9 @@ async def jssong(_, message):
         sname = songs[0].song
         slink = songs[0].media_url
         ssingers = songs[0].singers
-        await m.edit("Downloading")
+        await m.edit("Downloading 📥 ")
         song = await download_song(slink)
-        await m.edit("Uploading")
+        await m.edit("Uploading 📤 ")
         await message.reply_audio(audio=song, title=sname,
                                   performer=ssingers)
         os.remove(song)
