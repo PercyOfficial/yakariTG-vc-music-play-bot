@@ -128,12 +128,6 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 async def playlist(client, message):
     global que
     queue = que.get(message.chat.id)
-    if not queue:
-        await message._client.get_chat_member(int("{-1001325914694}"), message.from_user.id)
-    except UserNotParticipant:
-        await message.reply_text("
-You Need To Join @slbotzone For Executing This Command...")
-        return
     temp = []
     for t in queue:
         temp.append(t)
