@@ -29,7 +29,7 @@ async def gstart(_, message: Message):
         text="**🎧  Yakari music play services - Made by - @slbotzone 📛  Telegram UserBot to Play Audio in Telegram Voice Chats 🎙 Stay safe 😷  & enjoy 🥳   **",
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton(text=" ⚡️  Developer ", url="https://t.me/MusicBotSupports")
+            InlineKeyboardButton(text=" ⚡️  Developer ", url="https://t.me/supunma")
             ]]
         )
     )
