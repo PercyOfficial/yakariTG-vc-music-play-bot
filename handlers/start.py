@@ -9,16 +9,7 @@ from config import START_IMG as banner
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgIAAxkBAAELdDVg7lKBBpbSRagP51fi5ZxmacYEvwACeQQAAsxUSQl-KKP9zEUlkR4E")
     await message.reply_text(
-        text="**Hello 😋  {}!**\n\nI ** 🎙Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Features 🤖 🔥 Thumbnail Support
-🔥 Playlist Support
-🔥 Current playback support
-🔥 Showing track names when skipping
-🔥 Zero downtime, Fully Stable
-🔥 Deezer,YouTube & Saavan PlayBack Supported
-🔥 Settings panel
-🔥 Control with buttons
-🔥 Userbot auto join
-🔥 Thanks Message When Add The Bot Join On A Grou**".format(message.from_user.mention),
+        text="**Hello 😋  {}!**\n\nI ** 🎙Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Features 🤖 🔥 Thumbnail Support🔥 Playlist Support 🔥 Current playback support 🔥 Showing track names when skipping  🔥 Zero downtime, Fully Stable 🔥 Deezer,YouTube & Saavan PlayBack Supported 🔥 Settings panel 🔥 Control with buttons 🔥 Userbot auto join   🔥 Thanks Message When Add The Bot Join On A Grou**".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton("🧑‍🔧 HOW TO USE THIS BOT  ", url="https://t.me/supunma")
