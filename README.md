@@ -75,14 +75,14 @@
 
 ## Credits
 
-- InukaASiTH
-- Prabhasha
-- Wrench
-- QueenArzoo
-- lucifeermorningstar Dev
-- Hamker Cat
-- Anjana-Ma
-- ImJanindu
-- Laky
-- Dash Eclipse
+TG MUSICS 
+- Uvindu Bro
+- Vivek
+- Aswin Raj 
+- Jayant Hegde Kageri
+- Fayas 
+- RabbitFoRed 
+- Itz-Fork 
+- HEIMAN PICTURES 
+- DaisyX
 
