@@ -7,6 +7,7 @@ from config import START_IMG as banner
 
 @Client.on_message(filters.command(["start", "start@yakarimusicplaybot"]) & filters.private & ~filters.channel)
 async def start(_, message: Message):
+    await message.reply_sticker("CAACAgIAAxkBAAELdDVg7lKBBpbSRagP51fi5ZxmacYEvwACeQQAAsxUSQl-KKP9zEUlkR4E")
     await message.reply_text(
         text="**Hello 😋  {}!**\n\nI ** 🎙Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Features 🤖**".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
