@@ -30,7 +30,9 @@
 [![Intagram](https://img.shields.io/badge/Follow%20me%20on%20Instagram-4d267a?style=style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=instagram)](https://www.instagram.com/sl_geek_show/)&nbsp;
 [![Github](https://img.shields.io/badge/Github-000000?style=style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=github)](https://github.com/youtubeslgeekshow) 
 
-Supun, [13.07.21 19:14]
+<p align="right">
+  <a href="https://t.me/AsmSafone"><img src="https://user-images.githubusercontent.com/77770753/117139498-f081c400-adc9-11eb-9aaf-f895a54ecc67.gif"></a>
+    </p>
 ### Features✨
 
 - Thumbnail Support
