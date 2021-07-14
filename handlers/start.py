@@ -5,44 +5,44 @@ from config import BOT_USERNAME
 from config import START_IMG as banner
 
 
-@Client.on_message(filters.command(["start", "start@GroupMusicPlayBot"]) & filters.private & ~filters.channel)
+@Client.on_message(filters.command(["start", "start@yakarimusicplaybot"]) & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        text="**Hello 👋🏻 {}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**".format(message.from_user.mention),
+        text="**Hello 😋  {}!**\n\nI ** 🎙Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Features 🤖**".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/GroupMuSicPlayBot?startgroup=true")
+            InlineKeyboardButton("➕ Add To Your Group 🎙 ", url="https://t.me/yakarimusicplaybot?startgroup=true")
             ],[
-            InlineKeyboardButton("💬 Group", url="https://t.me/MusicBotSupports"),
-            InlineKeyboardButton("Channel 🔊", url="https://t.me/GroupMusicXNews")
+            InlineKeyboardButton("👨‍👨‍👦 Bot support group ", url="https://t.me/slbotzone"),
+            InlineKeyboardButton("🔔 Bot update Channel ", url="https://t.me/sl_bot_zone")
             ],[
-            InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07")
+            InlineKeyboardButton("📜  User manual ", url="https://telegra.ph/Music-Bot-05-07")
             ]]
         ),
         disable_web_page_preview=True
     )
         
-@Client.on_message(filters.command(["start", "start@GroupMusicPlayBot"]) & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command(["start", "start@yakarimusicplaybot"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
-        text="**Music Bot Is Online ✅**",
+        text="**🎧  Yakari music play services - Made by - @slbotzone 📛  Telegram UserBot to Play Audio in Telegram Voice Chats 🎙 Stay safe 😷  & enjoy 🥳**",
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/MusicBotSupports")
+            InlineKeyboardButton(text=" ⚡️  Developer ", url="https://t.me/MusicBotSupports")
             ]]
         )
     )
 
 
-@Client.on_message(filters.command(["cmdlist", "start@GroupMusicPlayBot"]) & filters.private & ~filters.channel)
+@Client.on_message(filters.command(["cmdlist", "start@yakarimusicplaybot"]) & filters.private & ~filters.channel)
 async def cmdlist(_, message: Message):
     await message.reply_text(
-        text="""**Group Music Bot : Help Menu**
+        text="""**〽️ yakari music play service  : Help Menu**
 
-__× First Add Me To Your Group..
-× Promote Me As Admin In Your Group With All Permission..__
+__× ➕  First Add Me To Your Group 👮‍♀️..
+× Promote Me As Admin In Your Group With All Permission 👮‍♀️ ..__
 
-**🏷 Common Commands.**
+**🏷 Common Commands ♻️ .**
 
 • `/play` - Song Name : __Plays Via Youtube__
 • `/dplay` - Song Name : __Play Via Deezer__
@@ -56,7 +56,7 @@ __× First Add Me To Your Group..
 • `/saavn` - song name : __download songs you want quickly via saavn__
 • `/search` - YouTube Title : __(Get YouTube Search Query)__
 
-**🏷 Group Admin Commands.**
+**🏷 Group Admin Commands 🔰 .**
 
 • `/skip` : __Skips Music__
 • `/pause` : __Pause Playing Music__
@@ -67,7 +67,7 @@ __× First Add Me To Your Group..
 • `/userbotleave` : __Assistant Leaves From The Group.__""",
         reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/MusicBotSupports")
+              InlineKeyboardButton(text="🚸 How to Deploy your one ", url="https://github.com/youtubeslgeekshow/yakariTG-vc-music-play-bot")
               ]]
           )
       )
